@@ -1,0 +1,33 @@
+{
+  "name": "react-pixi-flexbox",
+  "version": "0.0.1",
+  "description": "Flexbox for React Pixi",
+  "main": "./dist/index.js",
+  "author": "Thomas Caserta",
+  "license": "MIT",
+  "scripts": {
+      "build": "rollup -c rollup.config.ts"
+  },
+  "peerDependencies": {
+    "@inlet/react-pixi": "^1.1.2"
+  },
+  "dependencies": {
+    "@betit/rollup-plugin-rename-extensions": "^0.1.0",
+    "@betit/rollup-plugin-webpack-loader": "^0.0.3",
+    "@inlet/react-pixi": "^1.1.2",
+    "@typescript-eslint/parser": "^2.3.2",
+    "eslint": "^6.5.1",
+    "react": "^16.10.2",
+    "rollup": "^1.23.1",
+    "ts-loader": "^6.2.0",
+    "tslib": "^1.10.0",
+    "typescript": "^3.6.3",
+    "yoga-layout": "^1.9.3"
+  },
+  "devDependencies": {
+    "@types/pixi.js": "^4.8.9",
+    "@types/react": "^16.9.5",
+    "fast-glob": "^2.2.3",
+    "@types/yoga-layout": "^1.9.1"
+  }
+}
